@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+body{
+    padding: 8px;
+}
+
+.main{
+    width: 70%;
+    border: 1px solid blue;
+    box-shadow: 0 0 15px 5px rgba(37, 37, 164, 0.776);
+    border-radius: 10px;
+    padding: 20px;
+    /* Выравнивение блока по центру */
+    margin: 10px auto;
+}
+
+.header{
+    background-color: #c2c0e9;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.header:hover h1{
+    color: #e6e5fc;
+    
+}
+
+input, label, textarea, select{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input, textarea, select{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hiddenelem{
+    display: none;
+}
+
+.boxes input, .boxes label{
+    width: auto;
+    display: inline;
+}
+
+.changeColor:hover{
+    color: lightgray;
+}
+.changeColor1:hover{
+    color: lightgray;
+}
+.changeColor2:hover{
+    color: lightgray;
+}
+.changeColor3:hover{
+    color: lightgray;
+}
+.changeColor4:hover{
+    color: lightgray;
+}
+.changeColor5:hover{
+    color: lightgray;
+}
+.changeColor6:hover{
+    color: lightgray;
+}
+.changeColor7:hover{
+    color: lightgray;
+}
+.changeColor8:hover{
+    color: lightgray;
+}
+
+
+.button{
+    font-family: Inter;
+    font-size: 15.38px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.send{
+    width: 100px;
+    height: 40px;
+    padding: 10px 3px 10px 3px;
+    border-radius: 0px 0px 0px 0px;
+    background: #3263CD;
+    border-color: #3263CD;
+    color: white;
+
+}
+
+.send:hover{
+    background-color: #becce9;
+    border-color: #becce9;
+}

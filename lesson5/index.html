@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Tour Booking Form</h1>
+        </div>
+        <form action="#" method="post">
+            <div>
+                <label for="firstname" class="changeColor">Name</label>
+                <input type="text" placeholder="First name" id="firstname">
+                <label for="lastname" class="hiddenelem">Last name</label>
+                <input type="text" placeholder="Last name" id="lastname">
+            </div>
+            <div>
+                <label for="email" class="changeColor1">Email</label>
+                <input type="email" id="email" placeholder="name@mail.ru">
+            </div>
+            <div>
+                <label for="phone" class="changeColor2">Phone</label>
+                <input type="tel" id="phone" placeholder="###-###-####">
+            </div>
+            <div>
+                <label for="date" class="changeColor3">When are you planning to visit?</label>
+                <input type="date" id="date">
+            </div>
+            <div>
+                <label for="group" class="changeColor4">How many people are in your group?</label>
+                <input type="number" id="group">
+            </div>
+            <div>
+                <label for="" class="changeColor5">Which tour are you most interested in?</label>
+                <select id="">
+                    <option value="" disabled>*Please select*</option>
+                    <option value="usa">USA</option>
+                    <option value="eu">Europe</option>
+                    <option value="uae">UAE</option>
+                    <option value="mald">Maldives</option>
+                </select>
+            </div>
+            <div class="boxes">
+                <p class="changeColor6">What is the best way to contact you?</p>
+                <div>
+                    <input type="checkbox" id="chk1">
+                    <label for="chk1">Phone</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="chk2">
+                    <label for="chk2">Email</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="chk3">
+                    <label for="chk3">Either</label>
+                </div>
+            </div>
+            <div class="boxes">
+                <p class="changeColor7" >If phone, when is the best time of day for a call-back?</p>
+                <div>
+                    <input type="radio" id="rd1" name="time">
+                    <label for="rd1"> 8 - 11 AM</label>
+                </div>
+                <div>
+                    <input type="radio" id="rd2" name="time">
+                    <label for="rd2"> 12 - 4 AM</label>
+                </div>
+                <div>
+                    <input type="radio" id="rd3" name="time">
+                    <label for="rd3"> 6 - 10 AM</label>
+                </div>
+            </div>
+            <div>
+                <label for="text" class="changeColor8">Anything else we should know?</label>
+                <textarea id="text"></textarea>
+            </div>
+            <div class="button">
+                <!-- <input type="submit"> -->
+                <button type="submit" class="send">Send</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
